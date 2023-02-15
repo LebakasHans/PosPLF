@@ -1,0 +1,11 @@
+exerciseId,name,boostType,duration,difficulty,tags
+1,Shoulder Circles,JOB,4432,3,sex:male;pos:sitting;amb:bus
+2,Shoulder Flexion,JOB,12.34,5,sex:female;pos:standing
+3,Shoulder Abduction,JOB,555.2,5,amb:work
+4,Shoulder Flexion/Abduction,JOB,23.6,5,amb:home;amb:work
+5,Shrugs,MINDFUL,345.54,5,pos:standing;sex:female;pos:sitting
+6,Flys,MINDFUL,45.54,6,sex:female;pos:sitting
+7,Flexion/Extension,MINDFUL,9756.6,5,sex:female;pos:sitting;amb:work
+8,Supination/Pronation,MINDFUL,5432.6,5,pos:standing;pos:sitting
+9,Elbow circles,MINDFUL,3.6,5,sex:male;pos:sitting;amb:bus
+10,Flexion/Extension,JOB,665.6,5,sex:male;amb:bus
