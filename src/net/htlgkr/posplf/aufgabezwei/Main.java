@@ -39,7 +39,12 @@ public class Main {
         MyFunctionalInterfaceAsClass myFunctionalInterfaceAsClass = new MyFunctionalInterfaceAsClass();
         System.out.println(myFunctionalInterfaceAsClass.foo(1,3));
         System.out.println("----------------------------------------------------");
-        System.out.println(useInnerAnonymousClass((a, b) -> a + " + " + b));
+        System.out.println(useInnerAnonymousClass(new MyFunctionalInterfaceAsClass(){
+            @Override
+            public String foo(int a ,int b){
+                return a + " + " + b;
+            }
+        }));
     }
 
     private static String useInnerAnonymousClass(MyFunctionalInterface myFunctionalInterface) {
